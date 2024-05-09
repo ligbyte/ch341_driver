@@ -8,6 +8,10 @@ KERNELDIR :=/home/lime/work/RK3399-Android8.1/kernel
 
 kernel版本  4.4.167
 
+![图片描述](https://github.com/ligbyte/ch341_driver/raw/main/compile%20driver.png)
+
+
+
 USB serial driver for USB to UART chip ch340, ch341, etc. In fact Linux mainline kernels have built-in ch341 serial driver since kernel version 2.6.24. The location is: drivers/usb/serial/ch341.c, it's a pity that the built-in driver cannot be kept up to date. We suggest our customers to use this driver.
 
 1. Open "Terminal"

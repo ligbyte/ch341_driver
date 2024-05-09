@@ -1,0 +1,1 @@
+cmd_/home/lime/kernel/ch341_driver/driver/ch341.ko := /home/lime/aarch64-linux-android-4.9/bin/aarch64-linux-android-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/lime/kernel/ch341_driver/driver/ch341.ko /home/lime/kernel/ch341_driver/driver/ch341.o /home/lime/kernel/ch341_driver/driver/ch341.mod.o
